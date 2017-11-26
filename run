@@ -1,0 +1,7 @@
+#! /bin/bash
+
+file_name=./out/analysis
+current_time=$(date "+_%Y.%m.%d-%H.%M.%S")
+end=.txt
+
+python analysis.py > $file_name$current_time$end

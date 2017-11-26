@@ -1,0 +1,476 @@
+==========DOCUMENT==========
+sentiment: negative   -0.107598
+
+==========CATEGORIES==========
+label: /society/work/unemployment               score: 0.544318
+label: /law, govt and politics/government       score: 0.362913
+label: /business and industrial                 score: 0.199967
+
+==========CONCEPTS==========
+text: Economics                                relevance: 0.987127
+text: Unemployment                             relevance: 0.954734
+text: Inflation                                relevance: 0.867984
+text: Monetary policy                          relevance: 0.699150
+text: Macroeconomics                           relevance: 0.577574
+text: Interest rate                            relevance: 0.532681
+text: Federal Reserve                          relevance: 0.525920
+text: Federal Open Market Committee            relevance: 0.518244
+
+==========EMOTIONS==========
+anger     : 0.090777
+disgust   : 0.081364
+fear      : 0.122624
+joy       : 0.613245
+sadness   : 0.516662
+
+==========ENTITIES==========
+entity: Committee       	 type: Organization    relevance: 0.878438
+	sentiment: negative   -0.457942
+	anger     : 0.099965
+	disgust   : 0.099631
+	fear      : 0.105528
+	joy       : 0.445532
+	sadness   : 0.176199
+entity: Federal Open Market Committee 	 type: Organization    relevance: 0.648009
+	sentiment: neutral    0.000000
+	anger     : 0.248036
+	disgust   : 0.088306
+	fear      : 0.041393
+	joy       : 0.033913
+	sadness   : 0.052923
+entity: Federal Reserve 	 type: Organization    relevance: 0.413462
+	sentiment: neutral    0.000000
+	anger     : 0.071831
+	disgust   : 0.045910
+	fear      : 0.052318
+	joy       : 0.178796
+	sadness   : 0.235260
+entity: U.S.            	 type: Location        relevance: 0.328297
+	sentiment: negative   -0.445611
+	anger     : 0.090252
+	disgust   : 0.069009
+	fear      : 0.068635
+	joy       : 0.128028
+	sadness   : 0.101121
+entity: Hurricanes Harvey 	 type: Person          relevance: 0.298909
+	sentiment: negative   -0.480825
+	anger     : 0.056088
+	disgust   : 0.043436
+	fear      : 0.151526
+	joy       : 0.201870
+	sadness   : 0.253222
+entity: principal       	 type: JobTitle        relevance: 0.285637
+	sentiment: neutral    0.000000
+	anger     : 0.080638
+	disgust   : 0.082190
+	fear      : 0.143387
+	joy       : 0.057942
+	sadness   : 0.142983
+entity: Maria           	 type: Person          relevance: 0.259636
+	sentiment: neutral    0.000000
+	anger     : 0.000000
+	disgust   : 0.000000
+	fear      : 0.000000
+	joy       : 0.000000
+	sadness   : 0.000000
+entity: Irma            	 type: Person          relevance: 0.250526
+	sentiment: neutral    0.000000
+	anger     : 0.000000
+	disgust   : 0.000000
+	fear      : 0.000000
+	joy       : 0.000000
+	sadness   : 0.000000
+entity: 2 percent       	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 1.4 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: three months    	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: $20 billion     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: $30 billion     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 1.6 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 1.8 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 1.9 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 2.1 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 2.4 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 2.7 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 2.8 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 2.9 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 4.3 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 4.4 percent     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: three years     	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: $4 billion      	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: $6 billion      	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: four years      	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 4 percent       	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+entity: 12-month        	 type: Quantity        relevance: 0.250526
+	sentiment: neutral    0.000000
+
+==========KEYWORDS==========
+keyword: federal funds rate        	 relevance: 0.934514
+	sentiment: negative   -0.003071
+	anger     : 0.141846
+	disgust   : 0.187143
+	fear      : 0.088911
+	joy       : 0.099278
+	sadness   : 0.136210
+keyword: percent                   	 relevance: 0.603557
+	sentiment: negative   -0.039748
+	anger     : 0.033351
+	disgust   : 0.026810
+	fear      : 0.131532
+	joy       : 0.477771
+	sadness   : 0.501987
+keyword: monetary policy           	 relevance: 0.580289
+	sentiment: positive   0.526597
+	anger     : 0.089138
+	disgust   : 0.105262
+	fear      : 0.067459
+	joy       : 0.118882
+	sadness   : 0.082667
+keyword: sheet normalization program 	 relevance: 0.578615
+	sentiment: positive   0.495936
+	anger     : 0.041827
+	disgust   : 0.011490
+	fear      : 0.090051
+	joy       : 0.474466
+	sadness   : 0.185760
+keyword: balance sheet normalization 	 relevance: 0.578456
+	sentiment: positive   0.495936
+	anger     : 0.041827
+	disgust   : 0.011490
+	fear      : 0.090051
+	joy       : 0.474466
+	sadness   : 0.185760
+keyword: labor market              	 relevance: 0.542589
+	sentiment: negative   -0.079507
+	anger     : 0.096077
+	disgust   : 0.050668
+	fear      : 0.145430
+	joy       : 0.286885
+	sadness   : 0.262154
+keyword: percent longer-run objective 	 relevance: 0.539269
+	sentiment: positive   0.102781
+	anger     : 0.038060
+	disgust   : 0.016415
+	fear      : 0.178146
+	joy       : 0.498456
+	sadness   : 0.240770
+keyword: inflation                 	 relevance: 0.536741
+	sentiment: positive   0.164900
+	anger     : 0.091151
+	disgust   : 0.071541
+	fear      : 0.689428
+	joy       : 0.503088
+	sadness   : 0.428148
+keyword: percent inflation         	 relevance: 0.513262
+	sentiment: positive   0.564200
+	anger     : 0.050494
+	disgust   : 0.035547
+	fear      : 0.052206
+	joy       : 0.163863
+	sadness   : 0.208774
+keyword: median inflation projection 	 relevance: 0.486274
+	sentiment: neutral    0.000000
+	anger     : 0.007230
+	disgust   : 0.009901
+	fear      : 0.117497
+	joy       : 0.374426
+	sadness   : 0.511228
+keyword: appropriate monetary policy 	 relevance: 0.472752
+	sentiment: positive   0.606674
+	anger     : 0.063599
+	disgust   : 0.170230
+	fear      : 0.021234
+	joy       : 0.126149
+	sadness   : 0.022928
+keyword: job market                	 relevance: 0.458783
+	sentiment: positive   0.564200
+	anger     : 0.080197
+	disgust   : 0.040460
+	fear      : 0.050299
+	joy       : 0.262013
+	sadness   : 0.116478
+keyword: core inflation            	 relevance: 0.458287
+	sentiment: negative   -0.381848
+	anger     : 0.188668
+	disgust   : 0.151619
+	fear      : 0.132283
+	joy       : 0.435101
+	sadness   : 0.082347
+keyword: median projection         	 relevance: 0.456960
+	sentiment: negative   -0.775950
+	anger     : 0.120294
+	disgust   : 0.291787
+	fear      : 0.212814
+	joy       : 0.197347
+	sadness   : 0.268501
+keyword: lower inflation readings  	 relevance: 0.451116
+	sentiment: negative   -0.440626
+	anger     : 0.023830
+	disgust   : 0.178703
+	fear      : 0.055142
+	joy       : 0.560836
+	sadness   : 0.144201
+keyword: unemployment rate         	 relevance: 0.437192
+	sentiment: negative   -0.606706
+	anger     : 0.077411
+	disgust   : 0.169025
+	fear      : 0.149496
+	joy       : 0.196940
+	sadness   : 0.572900
+keyword: steady participation rate 	 relevance: 0.435834
+	sentiment: positive   0.406074
+	anger     : 0.097781
+	disgust   : 0.068660
+	fear      : 0.121007
+	joy       : 0.161101
+	sadness   : 0.190504
+keyword: longer-run normal rate    	 relevance: 0.435330
+	sentiment: negative   -0.640759
+	anger     : 0.041518
+	disgust   : 0.062992
+	fear      : 0.184279
+	joy       : 0.046480
+	sadness   : 0.089067
+keyword: additional gradual rate   	 relevance: 0.429798
+	sentiment: negative   -0.496233
+	anger     : 0.168550
+	disgust   : 0.090772
+	fear      : 0.182915
+	joy       : 0.244803
+	sadness   : 0.145132
+keyword: neutral level             	 relevance: 0.427337
+	sentiment: negative   -0.425897
+	anger     : 0.111830
+	disgust   : 0.337592
+	fear      : 0.074752
+	joy       : 0.093558
+	sadness   : 0.248910
+keyword: median growth projection  	 relevance: 0.427247
+	sentiment: negative   -0.203957
+	anger     : 0.008740
+	disgust   : 0.008512
+	fear      : 0.078443
+	joy       : 0.524404
+	sadness   : 0.254719
+keyword: Federal Open Market       	 relevance: 0.425892
+	sentiment: neutral    0.000000
+	anger     : 0.257661
+	disgust   : 0.097220
+	fear      : 0.045232
+	joy       : 0.031304
+	sadness   : 0.059132
+keyword: Committee                 	 relevance: 0.425567
+	sentiment: negative   -0.422070
+	anger     : 0.112887
+	disgust   : 0.090838
+	fear      : 0.091184
+	joy       : 0.434218
+	sadness   : 0.162427
+keyword: median estimate           	 relevance: 0.421812
+	sentiment: negative   -0.598881
+	anger     : 0.027039
+	disgust   : 0.028733
+	fear      : 0.194697
+	joy       : 0.053933
+	sadness   : 0.141504
+keyword: inflation expectations    	 relevance: 0.413861
+	sentiment: neutral    0.000000
+	anger     : 0.086326
+	disgust   : 0.047450
+	fear      : 0.052807
+	joy       : 0.259230
+	sadness   : 0.328841
+keyword: inflation developments    	 relevance: 0.413699
+	sentiment: negative   -0.471938
+	anger     : 0.061864
+	disgust   : 0.034263
+	fear      : 0.078075
+	joy       : 0.107743
+	sadness   : 0.037904
+keyword: recent economic developments 	 relevance: 0.411619
+	sentiment: negative   -0.294981
+	anger     : 0.032628
+	disgust   : 0.032032
+	fear      : 0.197898
+	joy       : 0.123837
+	sadness   : 0.064687
+keyword: improved economic conditions 	 relevance: 0.402908
+	sentiment: neutral    0.000000
+	anger     : 0.032440
+	disgust   : 0.047889
+	fear      : 0.075773
+	joy       : 0.355518
+	sadness   : 0.085085
+keyword: labor force               	 relevance: 0.402105
+	sentiment: positive   0.689601
+	anger     : 0.102560
+	disgust   : 0.047039
+	fear      : 0.196162
+	joy       : 0.288457
+	sadness   : 0.122232
+keyword: longer-run normal level   	 relevance: 0.401204
+	sentiment: neutral    0.000000
+	anger     : 0.044876
+	disgust   : 0.060078
+	fear      : 0.204720
+	joy       : 0.050377
+	sadness   : 0.089062
+keyword: real GDP                  	 relevance: 0.400991
+	sentiment: negative   -0.126352
+	anger     : 0.034144
+	disgust   : 0.069713
+	fear      : 0.044117
+	joy       : 0.699210
+	sadness   : 0.132893
+keyword: target range              	 relevance: 0.400389
+	sentiment: neutral    0.000000
+	anger     : 0.255018
+	disgust   : 0.100463
+	fear      : 0.078784
+	joy       : 0.020712
+	sadness   : 0.043994
+keyword: Policy Normalization Principles 	 relevance: 0.399258
+	sentiment: neutral    0.000000
+	anger     : 0.029051
+	disgust   : 0.083876
+	fear      : 0.065390
+	joy       : 0.056115
+	sadness   : 0.141383
+keyword: broader economic conditions 	 relevance: 0.398609
+	sentiment: neutral    0.000000
+	anger     : 0.046362
+	disgust   : 0.061196
+	fear      : 0.090361
+	joy       : 0.214292
+	sadness   : 0.095247
+keyword: solid rate                	 relevance: 0.398561
+	sentiment: positive   0.689601
+	anger     : 0.052881
+	disgust   : 0.039552
+	fear      : 0.110150
+	joy       : 0.415822
+	sadness   : 0.062740
+keyword: neutral policy stance     	 relevance: 0.398433
+	sentiment: negative   -0.570317
+	anger     : 0.148154
+	disgust   : 0.295396
+	fear      : 0.052333
+	joy       : 0.043381
+	sadness   : 0.140051
+keyword: longer-run neutral level  	 relevance: 0.396380
+	sentiment: negative   -0.448769
+	anger     : 0.049546
+	disgust   : 0.195911
+	fear      : 0.099967
+	joy       : 0.067753
+	sadness   : 0.391471
+keyword: longer-run rate           	 relevance: 0.396238
+	sentiment: neutral    0.000000
+	anger     : 0.061971
+	disgust   : 0.090773
+	fear      : 0.202835
+	joy       : 0.030134
+	sadness   : 0.117299
+keyword: healthy labor market      	 relevance: 0.395446
+	sentiment: negative   -0.333251
+	anger     : 0.047373
+	disgust   : 0.017937
+	fear      : 0.161551
+	joy       : 0.564248
+	sadness   : 0.178447
+keyword: ongoing strength          	 relevance: 0.394055
+	sentiment: negative   -0.333251
+	anger     : 0.045162
+	disgust   : 0.017692
+	fear      : 0.136877
+	joy       : 0.574833
+	sadness   : 0.142473
+keyword: securities holdings       	 relevance: 0.393698
+	sentiment: negative   -0.592047
+	anger     : 0.120049
+	disgust   : 0.081352
+	fear      : 0.295737
+	joy       : 0.154053
+	sadness   : 0.299877
+keyword: neutral rate              	 relevance: 0.392936
+	sentiment: negative   -0.618901
+	anger     : 0.035556
+	disgust   : 0.345947
+	fear      : 0.227169
+	joy       : 0.059463
+	sadness   : 0.311605
+keyword: potential market strains  	 relevance: 0.392870
+	sentiment: negative   -0.875273
+	anger     : 0.095353
+	disgust   : 0.078238
+	fear      : 0.177751
+	joy       : 0.247867
+	sadness   : 0.315457
+keyword: wireless telephone services 	 relevance: 0.392707
+	sentiment: negative   -0.207816
+	anger     : 0.162199
+	disgust   : 0.053638
+	fear      : 0.053235
+	joy       : 0.110355
+	sadness   : 0.094632
+keyword: maximum sustainable level 	 relevance: 0.392213
+	sentiment: positive   0.283504
+	anger     : 0.132893
+	disgust   : 0.137648
+	fear      : 0.084297
+	joy       : 0.081073
+	sadness   : 0.180593
+keyword: personal consumption expenditures 	 relevance: 0.392189
+	sentiment: neutral    0.000000
+	anger     : 0.147016
+	disgust   : 0.039041
+	fear      : 0.155680
+	joy       : 0.115725
+	sadness   : 0.373147
+keyword: recent hurricane-related increases 	 relevance: 0.391672
+	sentiment: neutral    0.000000
+	anger     : 0.022344
+	disgust   : 0.022283
+	fear      : 0.100751
+	joy       : 0.095868
+	sadness   : 0.216954
+keyword: real GDP growth           	 relevance: 0.391528
+	sentiment: positive   0.318978
+	anger     : 0.023814
+	disgust   : 0.059556
+	fear      : 0.029868
+	joy       : 0.747380
+	sadness   : 0.103803
+keyword: longer-run normal value   	 relevance: 0.388740
+	sentiment: negative   -0.557003
+	anger     : 0.023221
+	disgust   : 0.019442
+	fear      : 0.177054
+	joy       : 0.067238
+	sadness   : 0.186589
+keyword: gross domestic product    	 relevance: 0.388431
+	sentiment: neutral    0.000000
+	anger     : 0.177904
+	disgust   : 0.451324
+	fear      : 0.193687
+	joy       : 0.048619
+	sadness   : 0.035537
