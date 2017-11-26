@@ -1,5 +1,9 @@
 #! /bin/bash
 
+if [ ! -d "out" ]; then
+	mkdir "out";
+fi
+
 file_name=./out/analysis
 current_time=$(date "+_%Y.%m.%d-%H.%M.%S")
 end=.txt
