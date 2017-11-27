@@ -18,3 +18,7 @@ what was known at the time
 ##### make executable with `chmod 700 run`
 ##### run with `./run`
 ##### all output found in `/out`
+
+## Sources
+
+9/20/2017 FOMC Press Conference [here](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20170920.pdf)
