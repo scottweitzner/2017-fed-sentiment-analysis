@@ -1,4 +1,7 @@
 import constants
+
+import sys
+
 from watson_developer_cloud import NaturalLanguageUnderstandingV1, WatsonException
 import watson_developer_cloud.natural_language_understanding.features.v1 as features
 
@@ -35,7 +38,6 @@ def execute_watson_request(text):
         return response
     except WatsonException as error:
         return str(error)
-
 
 def main():
     in_data = json.load(open('./in/fed_speech.json'))
