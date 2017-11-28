@@ -17,7 +17,9 @@ what was known at the time
 ##### change the `constants_example.py` file to `constants.py` and input your Watson credentials
 ##### make executable with `chmod 700 run`
 ##### run with `./run`
-##### all output found in `/out`
+##### output from `run` found in `/out`
+
+##### for specific word lookup run with `python lookup_word.py [word]`
 
 ## Sources
 
