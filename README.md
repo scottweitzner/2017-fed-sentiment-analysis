@@ -14,13 +14,15 @@ what was known at the time
 
 ## Run Instructions
 
-##### change the `constants_example.py` file to `constants.py` and input your Watson credentials
-##### make executable with `chmod 700 run`
-##### run with `./run`
-##### output from `run` found in `/out`
+##### Change the `constants_example.py` file to `constants.py` and input your Watson credentials
+##### Make executable with `chmod 700 run`
+##### Run with `./run`
+##### Output from `run` found in `/out`
 
-##### for specific phrase lookup run with `./run [phrase]`
+##### For specific phrase lookup run with `./run [phrase]`
 -  Note: this will return the emotions and sentiment of the given phrase
+
+##### Note: If you wish to change the name of the out directory, change the variable `OUTDIR` in the bash script `run`
 
 ## Sources
 

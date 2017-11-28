@@ -1,6 +1,8 @@
 import constants
 
+import os
 import sys
+import datetime
 
 from watson_developer_cloud import NaturalLanguageUnderstandingV1, WatsonException
 import watson_developer_cloud.natural_language_understanding.features.v1 as features
@@ -9,6 +11,7 @@ import json
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
+RAW_JSON_FILE_NAME = "raw"
 
 def execute_watson_request(text):
     natural_language_understanding = NaturalLanguageUnderstandingV1(
@@ -39,10 +42,18 @@ def execute_watson_request(text):
     except WatsonException as error:
         return str(error)
 
+def write_raw_to_file(raw):
+    file_name = './{0}/{1}{2}.json'.format(os.environ['OUTDIR'], RAW_JSON_FILE_NAME, os.environ['FED_SENTIMENT_ANLYSIS_TIME'])
+    with open(file_name, 'w') as raw_file:
+        json.dump(raw, raw_file, indent=4)
+
+
 def main():
     in_data = json.load(open('./in/fed_speech.json'))
     speech = in_data['speech'].encode('ascii', 'replace')
     out = execute_watson_request( speech )
+
+    write_raw_to_file(out)
 
     # DOCUMENT
     print("="*10 + "DOCUMENT" + "="*10)

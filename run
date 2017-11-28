@@ -1,22 +1,32 @@
 #! /bin/bash
 
+OUTDIR="out"
+
 # if command line arguments supplied -> run on given phrase
 if [ $# -ge 1 ]; then
-
 	phrase="$*"
 	python lookup_word.py $phrase
 
-# if none supplied -> run on speech
+# if no arguments supplied -> run on speech
 else
+	export OUTDIR
 
-	if [ ! -d "out" ]; then
-		mkdir "out";
+	if [ ! -d $OUTDIR ]; then
+		mkdir $OUTDIR;
 	fi
 
-	file_name=./out/analysis
+	prefix="./"
+	slash="/"
+	name="analysis" 
 	current_time=$(date "+_%Y.%m.%d-%H.%M.%S")
-	end=.txt
+	ext=.txt
 
-	python analysis.py > $file_name$current_time$end
+	export FED_SENTIMENT_ANLYSIS_TIME=$current_time
 
+	file_name=$prefix$OUTDIR$slash$name$current_time$ext
+
+	python analysis.py > $file_name
+
+	unset OUTDIR
+	unset FED_SENTIMENT_ANLYSIS_TIME
 fi
