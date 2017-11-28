@@ -19,7 +19,8 @@ what was known at the time
 ##### run with `./run`
 ##### output from `run` found in `/out`
 
-##### for specific word lookup run with `python lookup_word.py [word]`
+##### for specific phrase lookup run with `./run [phrase]`
+-  Note: this will return the emotions and sentiment of the given phrase
 
 ## Sources
 

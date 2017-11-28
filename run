@@ -1,11 +1,22 @@
 #! /bin/bash
 
-if [ ! -d "out" ]; then
-	mkdir "out";
+# if command line arguments supplied -> run on given phrase
+if [ $# -ge 1 ]; then
+
+	phrase="$*"
+	python lookup_word.py $phrase
+
+# if none supplied -> run on speech
+else
+
+	if [ ! -d "out" ]; then
+		mkdir "out";
+	fi
+
+	file_name=./out/analysis
+	current_time=$(date "+_%Y.%m.%d-%H.%M.%S")
+	end=.txt
+
+	python analysis.py > $file_name$current_time$end
+
 fi
-
-file_name=./out/analysis
-current_time=$(date "+_%Y.%m.%d-%H.%M.%S")
-end=.txt
-
-python analysis.py > $file_name$current_time$end

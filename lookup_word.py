@@ -35,14 +35,22 @@ def execute_watson_request(word):
         print( str(error) )
         exit(0)
 
+def args_to_string():
+    phrase = ""
+    for arg in sys.argv[1:]:
+        phrase += " " + arg
+    phrase = phrase.strip()
+    return phrase
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         print("You must supply a word to be looked up")
     else:
-        out = execute_watson_request( sys.argv[1] )
 
-        print("~~ " + sys.argv[1] + " ~~")
+        phrase = args_to_string()
+        out = execute_watson_request( phrase )
+
+        print("~~ " + phrase + " ~~")
 
         # EMOTION
         print("="*10 + "EMOTIONS" + "="*10)
