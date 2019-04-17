@@ -1,7 +1,7 @@
-# FED_2017_sentiment_analysis
+# FED 2017 Sentiment Analysis
 
 ## About
-This is for an econimcs writing class at Emory University. The assignment was to analyze the release of the FED press conference release for the central bank meeting on september 19-20
+This is for an econimcs writing class at Emory University (ECON 411W). The assignment was to analyze the release of the FED press conference release for the central bank meeting on september 19-20
 
 From The syllabus:
 ```
